@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a = 3;
+    int b = 4;
+    int c = 5;
+    
+    printf("\n");
+    // How to print address
+    
+    printf("%p \n", &a);
+    printf("%p \n", &b);
+    printf("%p \n", &c);
+    
+    printf("\n");
+    // Declare and assigning pointers
+    
+    int *ptA = &a;
+    int *ptB = &b;
+    int *ptC = &c;
+    
+    printf("\n");
+    // Printing address using pointers
+    printf("%p \n", ptA);
+    printf("%p \n", ptB);
+    printf("%p \n", ptC);
+    
+    printf("\n");
+    // Dereferencing of pointers
+    printf("%d \n", *ptA);
+    printf("%d \n", *ptB);
+    printf("%d \n", *ptC);
+    
+    
+    return 0;
+}
